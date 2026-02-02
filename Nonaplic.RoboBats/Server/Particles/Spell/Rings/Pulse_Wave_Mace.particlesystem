@@ -1,0 +1,10 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Pulse_Wave_Mace"
+    },
+    {
+      "SpawnerId": "Pulse_Glow_Mace"
+    }
+  ]
+}

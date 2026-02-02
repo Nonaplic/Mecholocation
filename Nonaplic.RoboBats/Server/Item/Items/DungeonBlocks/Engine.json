@@ -1,0 +1,49 @@
+{
+  "TranslationProperties": {
+    "Name": "Engine"
+  },
+  "Icon": "Icons/ItemsGenerated/Engine.png",
+  "Set": "Rock_Shale_Brick",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Textures": [
+      {
+        "Weight": 1,
+        "North": "BlockTextures/EngineFront.png",
+        "South": "BlockTextures/EchoStone.png",
+        "West": "BlockTextures/EchoStone.png",
+        "East": "BlockTextures/EchoStone.png",
+        "Down": "BlockTextures/EngineBottom.png",
+        "Up": "BlockTextures/Panel.png"
+      }
+    ],
+    "ParticleColor": "#3d4a52",
+    "DrawType": "Cube",
+    "VariantRotation": "NESW"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Shale"
+    ]
+  },
+  "Parent": "Rock_Shale_Brick",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      344,
+      224,
+      344
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

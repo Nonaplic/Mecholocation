@@ -1,0 +1,49 @@
+{
+  "TranslationProperties": {
+    "Name": "Gear (Large)"
+  },
+  "Icon": "Icons/ItemsGenerated/GearBig.png",
+  "Set": "Rock_Basalt_Brick",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#5a5144",
+    "DrawType": "Model",
+    "CustomModel": "Blocks/GearBig.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/GearBigTexture.png"
+      }
+    ],
+    "CustomModelAnimation": "Blocks/SpinLarge.blockyanim",
+    "Material": "Solid",
+    "HitboxType": "Painting",
+    "VariantRotation": "NESW",
+    "FlipType": "Orthogonal",
+    "Looping": true
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Basalt"
+    ]
+  },
+  "Parent": "Rock_Basalt_Brick",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      11,
+      -19
+    ]
+  }
+}

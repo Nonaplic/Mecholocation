@@ -1,0 +1,4 @@
+items.Batcave_Portal.description=Use to enter an ancient advanced civilization's former home.
+items.Echo_Block.description=A device that emits an echoing signal when pressed.
+items.Echo_Flail.description=A flail that emits sound waves. Perform a charge attack to damage all nearby enemies.
+general.damageCauses.echo=an Echobat's echo

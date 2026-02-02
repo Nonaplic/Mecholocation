@@ -1,0 +1,67 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemPlayerAnimationsId": "RoboBat_Default",
+    "ItemAnimationId": "EchoWave",
+    "Particles": [
+      {
+        "SystemId": "Pulse_Wave",
+        "Scale": 1,
+        "TargetEntityPart": "Entity",
+        "DetachedFromModel": true,
+        "Color": "#ff7777"
+      }
+    ]
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.25,
+  "Next": {
+    "Type": "Selector",
+    "Effects": {
+      "WorldSoundEventId": "SFX_NPC_Robobat_Wave"
+    },
+    "$Comment": "Length of Combat",
+    "RunTime": 0.167,
+    "Selector": {
+      "Id": "AOECircle",
+      "Range": 4
+    },
+    "HitEntityRules": [
+      {
+        "Matchers": [
+          {
+            "Type": "Player"
+          }
+        ],
+        "Next": {
+          "Interactions": [
+            {
+              "Type": "ApplyEffect",
+              "EffectId": {
+                "DamageCalculator": {
+                  "BaseDamage": {
+                    "Slashing": 15
+                  }
+                },
+                "OverlapBehavior": "Overwrite",
+                "Duration": 0.3,
+                "Locale": "echo",
+                "DamageEffects": {},
+                "Parent": "Echo_Stun"
+              },
+              "Entity": "Target",
+              "RunTime": 1,
+              "HorizontalSpeedMultiplier": 0.1
+            }
+          ],
+          "Rules": {}
+        }
+      }
+    ],
+    "Next": {
+      "Type": "Simple",
+      "$Comment": "Pad the interaction length",
+      "RunTime": 0.25
+    }
+  }
+}

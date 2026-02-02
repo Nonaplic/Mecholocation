@@ -1,0 +1,55 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_FlyAttack",
+  "Modify": {
+    "Appearance": "Robo_Bat",
+    "DropList": "Drop_Robobat",
+    "MaxHealth": 80,
+    "WanderRadius": 3,
+    "Weapons": [],
+    "OffHand": [],
+    "DisableDamageGroups": [
+      "Self",
+      "Robo_Bats"
+    ],
+    "Attack": "Root_NPC_Robobat_Attack",
+    "ViewRange": 1,
+    "HearingRange": 7,
+    "AbsoluteDetectionRange": 1,
+    "AttackDistance": 5,
+    "BlockProbability": 10,
+    "BedBlockSet": "Charger_Blocks",
+    "DesiredAttackDistanceRange": [
+      3,
+      3.5
+    ],
+    "_InteractionVars": {
+      "Melee_Damage": {
+        "Interactions": [
+          {
+            "Parent": "NPC_Attack_Melee_Damage",
+            "$Comment": "Sets damage and onhit effects",
+            "DamageCalculator": {
+              "Type": "Absolute",
+              "BaseDamage": {
+                "Physical": 40
+              },
+              "RandomPercentageModifier": 0.1
+            }
+          }
+        ]
+      }
+    },
+    "IsMemory": true,
+    "MemoriesCategory": "Avian",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Bat.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}

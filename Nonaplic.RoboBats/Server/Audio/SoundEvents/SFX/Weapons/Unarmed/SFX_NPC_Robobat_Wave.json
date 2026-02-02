@@ -1,0 +1,34 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Robobat_Attack1.ogg",
+        "Sounds/Robobat_Attack2.ogg",
+        "Sounds/Robobat_Attack3.ogg",
+        "Sounds/Robobat_Attack4.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -0.4,
+        "MaxPitch": 0.4,
+        "MaxVolume": 0
+      },
+      "StartDelay": 0.1,
+      "Volume": 2,
+      "RoundRobinHistorySize": 2
+    },
+    {
+      "Files": [
+        "Sounds/Items/Portal/Textures/Portal_Zap_01.ogg",
+        "Sounds/Items/Portal/Textures/Portal_Zap_02.ogg",
+        "Sounds/Items/Portal/Textures/Portal_Zap_03.ogg",
+        "Sounds/Items/Portal/Textures/Portal_Zap_04.ogg"
+      ],
+      "Volume": -8
+    }
+  ],
+  "MaxInstance": 3,
+  "Volume": 1,
+  "Pitch": 0,
+  "PreventSoundInterruption": true,
+  "Parent": "SFX_Attn_Moderate"
+}

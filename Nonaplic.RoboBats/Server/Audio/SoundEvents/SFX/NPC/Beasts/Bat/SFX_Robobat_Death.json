@@ -1,0 +1,25 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Robobat_Death1.ogg",
+        "Sounds/Robobat_Death2.ogg",
+        "Sounds/Robobat_Death3.ogg",
+        "Sounds/Robobat_Death4.ogg"
+      ],
+      "RandomSettings": {
+        "MinVolume": -1,
+        "MaxVolume": 0,
+        "MinPitch": -5,
+        "MaxPitch": 0
+      },
+      "Volume": 6,
+      "StartDelay": 0
+    }
+  ],
+  "MaxInstance": 1,
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_NPC_Bat",
+  "Parent": "SFX_Attn_Quiet"
+}

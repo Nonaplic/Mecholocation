@@ -1,0 +1,21 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Impact_Fire",
+      "LifeSpan": {
+        "Min": 3.3333333333333335,
+        "Max": 5
+      },
+      "PositionOffset": {
+        "X": 0,
+        "Y": -0.5,
+        "Z": 0
+      },
+      "SpawnRate": {
+        "Min": 6,
+        "Max": 6
+      },
+      "MaxConcurrent": 5
+    }
+  ]
+}

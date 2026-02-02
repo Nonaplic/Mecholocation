@@ -1,0 +1,9 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Robo_Bat_Float",
+      "MaxConcurrent": 1,
+      "TotalSpawners": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Impact_Smoke",
+      "LifeSpan": {
+        "Min": 5.833333333333333,
+        "Max": 6.666666666666667
+      },
+      "PositionOffset": {
+        "X": 0,
+        "Y": -0.5,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "Drill_Sparks",
+      "PositionOffset": {
+        "X": 0,
+        "Y": -1,
+        "Z": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Duration": 10,
+  "ApplicationEffects": {
+    "EntityBottomTint": "#ffa93f",
+    "ScreenEffect": "ScreenEffects/Snow.png",
+    "EntityTopTint": "#da72ff",
+    "MovementEffects": {
+      "DisableAll": true,
+      "DisableCrouch": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "RequiredPlugins": {},
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "IsPvpEnabled": false,
+  "IsSpawningNPC": true,
+  "GameTime": "0001-01-01T00:00:00Z",
+  "UUID": {
+    "$binary": "AZKxiVAMQfWIS0qBsBfjzQ==",
+    "$type": "04"
+  },
+  "GameplayConfig": "Batcave",
+  "IsCompassUpdating": true,
+  "IsTicking": true,
+  "Seed": 1585649840973,
+  "IsGameTimePaused": True,
+  "IsObjectiveMarkersEnabled": true,
+  "IsAllNPCFrozen": false,
+  "IsSavingPlayers": true,
+  "WorldGen": {
+    "Type": "Void",
+    "Tint": "#00aa00",
+    "Environment": "Default"
+  },
+  "WorldMap": {
+    "Type": "Disabled"
+  },
+  "SpawnProvider": {
+    "Id": "Global",
+    "SpawnPoint": {
+      "X": -21,
+      "Y": 104.0,
+      "Z": -1,
+      "Pitch": 0,
+      "Yaw": -90,
+      "Roll": 0.0
+    }
+  },
+  "IsSpawnMarkersEnabled": false,
+  "DeleteOnRemove": true,
+  "Version": 2
+}

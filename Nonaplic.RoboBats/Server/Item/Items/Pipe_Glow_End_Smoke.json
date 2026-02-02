@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "Glowing Pipe (End - Smoke)"
+  },
+  "Icon": "Icons/ItemsGenerated/Pipe_Glow_End.png",
+  "Set": "Rock_Basalt_Brick",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#5a5144",
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/ChimneyTexture.png"
+      }
+    ],
+    "Material": "Solid",
+    "VariantRotation": "Pipe",
+    "FlipType": "Orthogonal",
+    "CustomModel": "Blocks/ChimneyTop.blockymodel",
+    "Particles": [
+      {
+        "SystemId": "Pipe_Glow_End_Smoke"
+      }
+    ],
+    "Light": {
+      "Color": "#079"
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Basalt"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      10,
+      -19
+    ]
+  },
+  "Parent": "Rock_Basalt_Brick_Smooth"
+}

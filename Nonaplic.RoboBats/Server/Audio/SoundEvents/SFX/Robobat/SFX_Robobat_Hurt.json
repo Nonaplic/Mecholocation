@@ -1,0 +1,25 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/Robobat_Hurt1.ogg",
+        "Sounds/Robobat_Hurt2.ogg",
+        "Sounds/Robobat_Hurt3.ogg",
+        "Sounds/Robobat_Hurt4.ogg"
+      ],
+      "RandomSettings": {
+        "MinVolume": -1,
+        "MaxVolume": 0,
+        "MinPitch": -4,
+        "MaxPitch": 2
+      },
+      "StartDelay": 0.1,
+      "Volume": 5
+    }
+  ],
+  "MaxInstance": 1,
+  "Volume": 0,
+  "PreventSoundInterruption": true,
+  "AudioCategory": "AudioCat_NPC_Bat",
+  "Parent": "SFX_Attn_Quiet"
+}

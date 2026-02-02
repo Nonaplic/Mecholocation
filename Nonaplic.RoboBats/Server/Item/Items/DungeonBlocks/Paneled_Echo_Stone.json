@@ -1,0 +1,67 @@
+{
+  "TranslationProperties": {
+    "Name": "Echo Stone (Metal Panels)"
+  },
+  "Icon": "Icons/ItemsGenerated/Paneled_Echo_Stone.png",
+  "Set": "Rock_Shale_Brick",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock_Shale"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Smooth"
+        ]
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Textures": [
+      {
+        "All": "BlockTextures/Panel.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#3d4a52",
+    "DrawType": "Cube"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Shale"
+    ]
+  },
+  "Parent": "Rock_Shale_Brick",
+  "ResourceTypes": [
+    {
+      "Id": "Rock_Shale_Brick"
+    }
+  ],
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "SpinSwingLeftCharged",
+    "Particles": [
+      {
+        "SystemId": "Pulse_Wave",
+        "Color": "#3ed6ff"
+      }
+    ]
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.089,
+  "Next": {
+    "Type": "Parallel",
+    "$Comment": "Make sure this parallel interaction is needed and can't be optimized away",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Selector",
+            "$Comment": "Length of Combat",
+            "RunTime": 0.177,
+            "Selector": {
+              "Id": "AOECircle",
+              "Range": 5
+            },
+            "HitBlock": {
+              "Interactions": [
+                "Block_Break_Adventure"
+              ]
+            },
+            "HitEntity": {
+              "Interactions": [
+                {
+                  "Type": "ApplyEffect",
+                  "EffectId": {
+                    "DamageCalculator": {
+                      "BaseDamage": {
+                        "Slashing": 12
+                      }
+                    },
+                    "OverlapBehavior": "Overwrite",
+                    "Duration": 6,
+                    "Locale": "echo",
+                    "Parent": "Slow",
+                    "ApplicationEffects": {}
+                  },
+                  "Entity": "Target",
+                  "RunTime": 1,
+                  "HorizontalSpeedMultiplier": 0.1
+                }
+              ]
+            },
+            "Next": {
+              "Type": "Simple",
+              "$Comment": "Pad the interaction length",
+              "RunTime": 0.179
+            },
+            "Effects": {
+              "Particles": [
+                {
+                  "SystemId": "Pulse_Wave",
+                  "Scale": 1,
+                  "TargetEntityPart": "Self",
+                  "DetachedFromModel": true,
+                  "Color": "#ff7777"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Echo_Flail_Spin_Swing_Left_Charged_Effect"
+              ]
+            },
+            "Var": "Echo_Flail_Spin_Swing_Left_Charged_Effect"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Pipe_Glow_End_Smoke_Round_Up",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.2,
+        "Z": 0
+      }
+    },
+    {
+      "SpawnerId": "Pipe_Glow_End_Smoke_Round_Down",
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0.5,
+        "Z": 0
+      }
+    }
+  ]
+}

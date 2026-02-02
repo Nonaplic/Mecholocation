@@ -1,0 +1,20 @@
+{
+  "Group": "Nonaplic",
+  "Name": "RoboBats",
+  "Version": "1.0.0",
+  "Description": "For the first Hytale Modjam.",
+  "Authors": [
+    {
+      "Name": "Nonaplic",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

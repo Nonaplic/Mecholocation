@@ -1,0 +1,122 @@
+{
+  "TranslationProperties": {
+    "Name": "Ancient Factory Portal",
+    "Description": "server.items.Batcave_Portal.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Batcave_Portal.png",
+  "Categories": [
+    "Blocks.Portals"
+  ],
+  "BlockType": {
+    "AmbientSoundEventId": "SFX_Portal_Neutral",
+    "DrawType": "Model",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Platform_Batcave_Portal.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Platform_Batcave.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Pad_Portal",
+    "BlockParticleSetId": "Stone",
+    "BlockSoundSetId": "Metal",
+    "VariantRotation": "NESW",
+    "BlockEntity": {
+      "Components": {
+        "BlockMapMarker": {
+          "Name": "server.items.Forgotten_Temple_Portal_Enter.name",
+          "Icon": "Temple_Gateway.png"
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Particles": [
+      {
+        "SystemId": "MagicPortal_ForgottenTemple",
+        "PositionOffset": {
+          "Y": 2.5
+        }
+      }
+    ],
+    "Interactions": {
+      "CollisionEnter": {
+        "Interactions": [
+          {
+            "Type": "TeleportInstance",
+            "InstanceName": "Batcave",
+            "PositionOffset": {
+              "X": 0,
+              "Y": 0,
+              "Z": 0
+            },
+            "Rotation": {
+              "Pitch": 0,
+              "Yaw": 0,
+              "Roll": 0
+            },
+            "PersonalReturnPoint": true,
+            "CloseOnBlockRemove": false,
+            "Next": {
+              "Type": "Simple",
+              "Effects": {
+                "LocalSoundEventId": "SFX_Portal_Neutral_Teleport_Local"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Portal"
+    ]
+  },
+  "Quality": "Technical",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "Recipe": {
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "ItemId": "Rock_Shale_Cobble",
+        "Quantity": 12
+      },
+      {
+        "ItemId": "Ingredient_Bar_Cobalt",
+        "Quantity": 6
+      },
+      {
+        "Quantity": 4,
+        "ItemId": "Ingredient_Crystal_Cyan"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Arcanebench",
+        "Type": "Crafting",
+        "Categories": [
+          "Arcane_Portals"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "TranslationProperties": {
+    "Name": "Speaker"
+  },
+  "Icon": "Icons/ItemsGenerated/Speaker.png",
+  "Set": "Rock_Shale_Brick",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "Textures": [
+      {
+        "Weight": 1,
+        "North": "BlockTextures/SpeakerFront.png",
+        "South": "BlockTextures/SpeakerFront.png",
+        "West": "BlockTextures/SpeakerSide.png",
+        "East": "BlockTextures/SpeakerSide.png",
+        "Down": "BlockTextures/EchoStone.png",
+        "Up": "BlockTextures/Panel.png"
+      }
+    ],
+    "ParticleColor": "#3d4a52",
+    "DrawType": "Cube",
+    "VariantRotation": "NESW"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Shale"
+    ]
+  },
+  "Parent": "Rock_Shale_Brick",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      344,
+      224,
+      344
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

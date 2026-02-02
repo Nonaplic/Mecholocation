@@ -1,0 +1,34 @@
+{
+  "BlockType": {
+    "CustomModel": "Blocks/charger_block.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/chargertexture.png"
+      }
+    ],
+    "Material": "Solid",
+    "Light": {
+      "Color": "#079"
+    },
+    "HitboxType": "Block_Quarter",
+    "Opacity": "Transparent",
+    "DrawType": "Model"
+  },
+  "Parent": "Rock_Basalt_Brick_Smooth",
+  "Icon": "Icons/ItemsGenerated/Charger_Block.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "Charger Block"
+  }
+}

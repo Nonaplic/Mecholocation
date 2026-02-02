@@ -1,0 +1,58 @@
+{
+  "TranslationProperties": {
+    "Name": "Drill (Spinning)"
+  },
+  "Icon": "Icons/ItemsGenerated/Drill.png",
+  "Set": "Rock_Basalt_Brick",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#5a5144",
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/DrillTexture.png"
+      }
+    ],
+    "Material": "Solid",
+    "VariantRotation": "DoublePipe",
+    "FlipType": "Orthogonal",
+    "CustomModel": "Blocks/Drill.blockymodel",
+    "CustomModelAnimation": "Blocks/Drill_Spin.blockyanim",
+    "Looping": true,
+    "Particles": [
+      {
+        "SystemId": "Drill_Sparks",
+        "PositionOffset": {
+          "Y": 2
+        },
+        "DetachedFromModel": false
+      }
+    ],
+    "AmbientSoundEventId": "SFX_Drill_Mine_Ore_Loop"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Basalt"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      10,
+      -19
+    ]
+  },
+  "Parent": "Rock_Basalt_Brick_Smooth"
+}

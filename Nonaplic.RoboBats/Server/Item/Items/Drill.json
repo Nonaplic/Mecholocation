@@ -1,0 +1,46 @@
+{
+  "TranslationProperties": {
+    "Name": "Drill"
+  },
+  "Icon": "Icons/ItemsGenerated/Drill.png",
+  "Set": "Rock_Basalt_Brick",
+  "BlockType": {
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#5a5144",
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/DrillTexture.png"
+      }
+    ],
+    "Material": "Solid",
+    "VariantRotation": "DoublePipe",
+    "FlipType": "Orthogonal",
+    "CustomModel": "Blocks/Drill.blockymodel"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Basalt"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      1,
+      -22
+    ]
+  },
+  "Parent": "Rock_Basalt_Brick_Smooth"
+}

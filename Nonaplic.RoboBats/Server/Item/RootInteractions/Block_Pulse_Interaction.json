@@ -1,0 +1,17 @@
+{
+  "Interactions": [
+    {
+      "Type": "ChangeState",
+      "Next": {
+        "Type": "ChangeState",
+        "Changes": {
+          "On": "default"
+        }
+      },
+      "RunTime": 0.8,
+      "Changes": {
+        "default": "On"
+      }
+    }
+  ]
+}

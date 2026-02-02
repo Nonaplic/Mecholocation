@@ -1,0 +1,33 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/EchoBlock_Active1.ogg",
+        "Sounds/EchoBlock_Active2.ogg",
+        "Sounds/EchoBlock_Active3.ogg",
+        "Sounds/EchoBlock_Active4.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -0.4,
+        "MaxPitch": 0.4
+      },
+      "StartDelay": 0.1,
+      "Volume": 6,
+      "RoundRobinHistorySize": 2
+    },
+    {
+      "Files": [
+        "Sounds/Projectiles/Rubble/Rubble_Bounce_01.ogg",
+        "Sounds/Projectiles/Rubble/Rubble_Bounce_02.ogg",
+        "Sounds/Projectiles/Rubble/Rubble_Bounce_03.ogg",
+        "Sounds/Projectiles/Rubble/Rubble_Bounce_04.ogg"
+      ],
+      "Volume": 2
+    }
+  ],
+  "MaxInstance": 3,
+  "Volume": 1,
+  "Pitch": 0,
+  "PreventSoundInterruption": true,
+  "Parent": "SFX_Attn_Loud"
+}

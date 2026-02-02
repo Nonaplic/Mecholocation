@@ -1,0 +1,83 @@
+{
+  "Interactions": [
+    {
+      "Type": "Selector",
+      "Selector": {
+        "Id": "AOECircle",
+        "Range": 5
+      },
+      "IgnoreOwner": true,
+      "CancelOnItemChange": false,
+      "HitEntityRules": [
+        {
+          "Next": {
+            "Type": "ApplyEffect",
+            "EffectId": {
+              "OverlapBehavior": "Overwrite",
+              "Duration": 0.3,
+              "Locale": "an echo",
+              "Parent": "Echo_Stun"
+            },
+            "Entity": "Target",
+            "Effects": {
+              "WorldSoundEventId": "SFX_Bone_Break",
+              "Particles": [
+                {
+                  "SystemId": "Rings_Rings_Ice",
+                  "Color": "#ff3c3c",
+                  "Scale": 1,
+                  "TargetEntityPart": "Entity",
+                  "PositionOffset": {
+                    "Y": 3
+                  },
+                  "DetachedFromModel": false
+                }
+              ]
+            },
+            "RunTime": 0.1,
+            "CancelOnItemChange": false,
+            "Interactions": [
+              {
+                "Type": "ApplyEffect",
+                "EffectId": {
+                  "OverlapBehavior": "Overwrite",
+                  "Duration": 0.3,
+                  "Locale": "an echo",
+                  "Parent": "Echo_Stun"
+                },
+                "Entity": "Target",
+                "Effects": {
+                  "WorldSoundEventId": "SFX_Bone_Break",
+                  "Particles": [
+                    {
+                      "SystemId": "Rings_Rings_Ice",
+                      "Color": "#ff3c3c",
+                      "Scale": 1,
+                      "TargetEntityPart": "Entity",
+                      "PositionOffset": {
+                        "Y": 3
+                      },
+                      "DetachedFromModel": false
+                    }
+                  ]
+                },
+                "RunTime": 0.1,
+                "CancelOnItemChange": false
+              }
+            ]
+          },
+          "Matchers": [
+            {
+              "Type": "Player"
+            }
+          ]
+        }
+      ],
+      "Next": {
+        "Type": "RemoveEntity",
+        "Entity": "Owner",
+        "CancelOnItemChange": false
+      }
+    }
+  ]
+}
